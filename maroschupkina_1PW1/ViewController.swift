@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
+    
     @IBAction func changeColorButtonPressed(_ sender: Any) {
         var set = Set<UIColor>()
         while set.count < views.count {
@@ -29,6 +30,7 @@ class ViewController: UIViewController {
         }
         
         let button = sender as? UIButton
+        
         button?.isEnabled = false
         
         
